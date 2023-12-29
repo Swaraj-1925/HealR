@@ -1,0 +1,256 @@
+.bottom-navigation-icon {
+  position: absolute;
+  top: 727px;
+  left: 0;
+  width: 375px;
+  height: 85px;
+  object-fit: cover;
+}
+.good-afternoon {
+  font-weight: 500;
+}
+.span {
+  font-weight: 600;
+}
+.welcome-back-sarina-container {
+  position: absolute;
+  top: 126px;
+  left: 29px;
+  line-height: 32px;
+  display: inline-block;
+  width: 235px;
+}
+.group-child,
+.group-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.group-icon {
+  height: 75%;
+  width: 58.9%;
+  top: 25%;
+  right: 41.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: var(--color-chocolate);
+}
+.div {
+  position: absolute;
+  top: 28.57%;
+  left: 33.33%;
+  font-weight: 500;
+}
+.ellipse-parent {
+  height: 65.63%;
+  width: 64.42%;
+  top: 0;
+  right: 0;
+  bottom: 34.38%;
+  left: 35.58%;
+}
+.ellipse-parent,
+.header,
+.shadow {
+  position: absolute;
+}
+.android-large-1 .header {
+  height: 3.94%;
+  width: 8.69%;
+  top: 5.42%;
+  right: 3.2%;
+  bottom: 90.64%;
+  left: 88.11%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.shadow {
+  top: 474.13px;
+  left: 38.48px;
+  border-radius: 165px;
+  background-color: var(--iris-100);
+  filter: blur(135.91px);
+  width: 298.05px;
+  height: 22.95px;
+  display: none;
+}
+.mask-group-icon,
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 335.76px;
+  height: 156px;
+}
+.rectangle {
+  border-radius: 20px;
+  background-color: #fef3e7;
+}
+.mask-group-icon {
+  object-fit: cover;
+}
+.on-1-sessions {
+  position: relative;
+  font-weight: 800;
+}
+.lets-open-up {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  font-family: var(--font-rubik);
+  display: inline-block;
+  width: 199px;
+  opacity: 0.9;
+}
+.watch-now-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  width: 138px;
+  height: 39px;
+}
+.book-now {
+  position: absolute;
+  top: 3.88px;
+  left: 0;
+  line-height: 32px;
+}
+.icoutline-date-range-icon {
+  position: absolute;
+  top: 9.88px;
+  left: 84px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.watch-now {
+  position: relative;
+  width: 138px;
+  height: 39px;
+  font-size: 16px;
+  color: var(--color-chocolate);
+}
+.peer-group-meetup {
+  position: absolute;
+  top: 23.88px;
+  left: 20.66px;
+  width: 205.59px;
+  height: 117.77px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.meetup-icon {
+  position: absolute;
+  top: 37.19px;
+  left: 224.19px;
+  width: 88.1px;
+  height: 82.65px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 388px;
+  left: 19.62px;
+  width: 335.76px;
+  height: 156px;
+  font-size: 22px;
+  color: var(--color-dimgray-100);
+}
+.rectangle1 {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: 16px;
+  background-color: #f8f6f6;
+  border: 1px solid #f4f4f4;
+  box-sizing: border-box;
+  width: 352px;
+  height: 92px;
+}
+.mask-group-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 351px;
+  height: 91px;
+  object-fit: cover;
+}
+.faquote-left-icon {
+  position: absolute;
+  top: 34.56px;
+  left: 312px;
+  width: 26px;
+  height: 23.04px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.it-is-better {
+  position: absolute;
+  top: 24.19px;
+  left: 16.25px;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  display: inline-block;
+  width: 279.5px;
+  height: 46.08px;
+}
+.home-inner,
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 351px;
+  height: 91px;
+}
+.home-inner {
+  top: 252px;
+  left: 10.5px;
+  font-size: 14px;
+  color: #707070;
+}
+.home-child {
+  position: absolute;
+  top: 727px;
+  left: 44px;
+  width: 12px;
+  height: 7px;
+  object-fit: cover;
+}
+.home {
+  background-color: #597E52;
+  position: absolute;
+  top: 0;
+  left: 7%;
+  border-radius: 40px;
+  background-color: #FFFFEC;
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+}
+.android-large-1 {
+  position: relative;
+  background-color: #FFFFEC;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 26px;
+  color: #371b34;
+  font-family: var(--font-epilogue);
+}

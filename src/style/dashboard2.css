@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-epilogue: Epilogue;
+  --font-rubik: Rubik;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-gray-100: #fbfbfb;
+  --color-dimgray-100: #573926;
+  --color-chocolate: #de671d;
+  --iris-100: #5d5fef;
+}
