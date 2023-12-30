@@ -58,9 +58,9 @@
   bottom: 34.38%;
   left: 35.58%;
 }
-.ellipse-parent,
-.header,
-.shadow {
+.android-large-1 .ellipse-parent,
+.android-large-1 .header,
+.android-large-1.shadow {
   position: absolute;
 }
 .android-large-1 .header {
@@ -253,4 +253,60 @@
   font-size: 26px;
   color: #371b34;
   font-family: var(--font-epilogue);
+}
+
+.navbarContainer {
+  background-color: #FBF9F1;
+  width: 420px;
+  left: 0px;
+  position: fixed;
+  bottom: 4%;
+  height: 60px;
+border-radius: 32px 32px 0px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  box-shadow: 16px px 8px rgba(0, 0, 0, 0.1);
+}
+.icon-container {
+   margin: 10px; 
+   padding: 10px;
+}
+
+.icon-nav {
+  fill: transparent;
+  stroke: #d4c3c3;
+ 
+}
+.icon-nav img{
+
+  width: 10PX;
+  height: 6PX;
+  visibility: hidden;
+}
+
+.active .icon-nav{
+  fill: #DE671D; 
+  visibility: visible;
+}
+.icon-container {
+  /* Your existing styles */
+  position: relative;
+}
+
+.semi-circle {
+  /* Style the semi-circle */
+  position: absolute;
+  top: -8px; 
+  left: 40%;
+  width: 10px;
+  height: 6px; 
+  background-color: transparent;
+  visibility: hidden; /* Initially hide the semi-circle */
+}
+
+.icon-container.active .semi-circle {
+  /* Show the semi-circle for the active icon */
+  visibility: visible;
 }
