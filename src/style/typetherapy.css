@@ -1,0 +1,68 @@
+/* YourComponent.css */
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 20px 0px;
+    
+  }
+  
+  .radio-container div {
+    margin-bottom: 10px; /* Adjust the margin between radio buttons */
+  }
+  
+  /* Optional: Styling the labels for better readability */
+  .radio-container label {
+    font-size: 16px;
+    /* Add more styles as needed */
+  }
+.radio-container div{
+    
+   font-size: 1px;
+    width: 380px;
+    border-radius: 25px;
+    height: 50px;
+    background-color: goldenrod;
+}
+.header-typetherapy{
+    position: absolute;
+    top: 10%;
+}
+.type{
+    margin-top: 80px;
+}
+.radio-container h4{
+    width: fit-content;
+    position: relative;
+    font-size: 20px;
+    left: 300px;
+    bottom: 40px;
+
+
+}
+.radio-container  label{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    
+    
+}
+.Typetherapy-icon{
+    position: relative;
+    padding: 30px;
+    left: 50px;
+}
+.radio-container input[type="radio"] {
+    display: none;
+  }
+.radio-container svg{
+    position: relative;
+    left: 30px;
+    top: 12px;
+}
+.header-typetherapy h2{
+    margin: 10px;
+    font-size: 36px;
+} 

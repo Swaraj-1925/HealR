@@ -7,6 +7,8 @@ import Dashboard from './compon­ent­/dashboard.js';
 import BookAppoinment from './compon­ent­/bookAppoinment';
 import DocDescription from "./compon­ent­/doc_Description.js";
 import Datepicker from './compon­ent­/Schedule.js';
+import Typetherapy from './compon­ent­/typetherapy.js';
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
       <Route path="/bookappointment" element={<BookAppoinment/>}></Route>
       <Route path="/doc_Description" element={<DocDescription/>}></Route>
       <Route path="/Schedule" element={<Datepicker/>}></Route>
+      <Route path="/methodOpp" element={<Typetherapy/>}></Route>
       
     </Routes>
   );

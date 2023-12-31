@@ -275,10 +275,13 @@
     --br-xs: 12px;
     
   }
-  .titlePage{
+  .bookapp .titlePage{
     position: relative;
     left: 20%;
-    top: 30px;
+    top: 0px;
+  }
+  .bookapp .titlePage h2{
+    font-size: 30px;
   }
   .bookapp {
     background-color: #597E52;

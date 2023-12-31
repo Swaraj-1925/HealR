@@ -66,7 +66,7 @@ function SignIp() {
                     </button></Link>
                   </div>
                 </form>
-                <Link to="/signup" className="signup-image-link">
+                <Link to="/join" className="signup-image-link">
                   I am new Here
                 </Link>
               </div>

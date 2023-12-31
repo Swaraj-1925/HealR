@@ -73,11 +73,12 @@ function Schedule() {
       <div className='titlePage'> <h2>Book Appoinment</h2></div>
       <div className='calender'> <DateCalendarServerRequest/></div>
       <div className="time-slots">
+      <h2>Available Time Slots</h2>
       <div className='button-container'>
         {timeSlots.map((slot, index) => (
           <button
             key={index}
-            onClick={() => handleSlotClick(slot)}
+             onClick={() => handleSlotClick(slot)}
             disabled={!availability[slot]}
             style={{
               backgroundColor: selectedSlot === slot ? '#DE671D' : '#DE671D',
