@@ -1,11 +1,4 @@
-.bottom-navigation-icon {
-  position: absolute;
-  top: 727px;
-  left: 0;
-  width: 375px;
-  height: 85px;
-  object-fit: cover;
-}
+
 .good-afternoon {
   font-weight: 500;
 }
@@ -16,9 +9,10 @@
   position: absolute;
   top: 126px;
   left: 29px;
+  font-size: 40px;
   line-height: 32px;
   display: inline-block;
-  width: 235px;
+  width: fit-content;
 }
 .group-child,
 .group-icon {
@@ -27,27 +21,30 @@
   left: 0;
 }
 .group-icon {
-  height: 75%;
-  width: 58.9%;
-  top: 25%;
-  right: 41.1%;
+  position: relative;
+  height: auto;
+  width: 25px;
+  top: 0;
+  right: 0;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
 .group-child {
+  position: relative;
+  
   height: 100%;
   width: 100%;
   top: 0;
-  right: 0;
+  right: 15px;
   border-radius: 50%;
   background-color: var(--color-chocolate);
 }
 .div {
   position: absolute;
-  top: 28.57%;
-  left: 33.33%;
+  top: 3px;
+  left: 10px;
   font-weight: 500;
 }
 .ellipse-parent {
@@ -58,12 +55,12 @@
   bottom: 34.38%;
   left: 35.58%;
 }
-.android-large-1 .ellipse-parent,
-.android-large-1 .header,
-.android-large-1.shadow {
+.dashboard .ellipse-parent,
+.dashboard .header,
+.dashboard.shadow {
   position: absolute;
 }
-.android-large-1 .header {
+.dashboard .header {
   height: 3.94%;
   width: 8.69%;
   top: 5.42%;
@@ -86,11 +83,12 @@
 }
 .mask-group-icon,
 .rectangle {
+  margin-top: 20px;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 335.76px;
-  height: 156px;
+  left: -20px;
+  width: 375.76px;
+  height: 186px;
 }
 .rectangle {
   border-radius: 20px;
@@ -105,7 +103,7 @@
 }
 .lets-open-up {
   position: relative;
-  font-size: var(--font-size-xs);
+  font-size: 14px;
   line-height: 18px;
   font-family: var(--font-rubik);
   display: inline-block;
@@ -122,6 +120,7 @@
 }
 .book-now {
   position: absolute;
+  font-size: 17px;
   top: 3.88px;
   left: 0;
   line-height: 32px;
@@ -129,7 +128,7 @@
 .icoutline-date-range-icon {
   position: absolute;
   top: 9.88px;
-  left: 84px;
+  left: 89px;
   width: 17px;
   height: 17px;
   overflow: hidden;
@@ -144,9 +143,10 @@
 }
 .peer-group-meetup {
   position: absolute;
-  top: 23.88px;
+  top: 44.88px;
   left: 20.66px;
-  width: 205.59px;
+  font-size: 26px;
+  width: 215.59px;
   height: 117.77px;
   display: flex;
   flex-direction: column;
@@ -158,7 +158,7 @@
   position: absolute;
   top: 37.19px;
   left: 224.19px;
-  width: 88.1px;
+  width: 98.1px;
   height: 82.65px;
   overflow: hidden;
   object-fit: cover;
@@ -181,7 +181,7 @@
   border: 1px solid #f4f4f4;
   box-sizing: border-box;
   width: 352px;
-  height: 92px;
+  height: 122px;
 }
 .mask-group-icon1 {
   position: absolute;
@@ -193,7 +193,7 @@
 }
 .faquote-left-icon {
   position: absolute;
-  top: 34.56px;
+  top: 44.56px;
   left: 312px;
   width: 26px;
   height: 23.04px;
@@ -202,13 +202,14 @@
 }
 .it-is-better {
   position: absolute;
-  top: 24.19px;
+  top: 37.19px;
   left: 16.25px;
   letter-spacing: -0.01em;
   line-height: 20px;
   display: inline-block;
   width: 279.5px;
   height: 46.08px;
+  font-size: 16px;
 }
 .home-inner,
 .rectangle-group {
@@ -243,7 +244,7 @@
   height: 812px;
   overflow: hidden;
 }
-.android-large-1 {
+.dashboard {
   position: relative;
   background-color: #FFFFEC;
   width: 100%;
@@ -260,9 +261,9 @@
   width: 420px;
   left: 0px;
   position: fixed;
-  bottom: 4%;
+  bottom: 0%;
   height: 60px;
-border-radius: 32px 32px 0px 0px;
+  border-radius: 32px 32px 0px 0px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -291,22 +292,21 @@ border-radius: 32px 32px 0px 0px;
   visibility: visible;
 }
 .icon-container {
-  /* Your existing styles */
+  
   position: relative;
 }
 
 .semi-circle {
-  /* Style the semi-circle */
+
   position: absolute;
   top: -8px; 
   left: 40%;
   width: 10px;
   height: 6px; 
   background-color: transparent;
-  visibility: hidden; /* Initially hide the semi-circle */
+  visibility: hidden; 
 }
 
 .icon-container.active .semi-circle {
-  /* Show the semi-circle for the active icon */
   visibility: visible;
 }

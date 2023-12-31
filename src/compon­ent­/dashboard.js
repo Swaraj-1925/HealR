@@ -10,7 +10,7 @@ import './../style/dashboard.css';
 import './../style/dashboard2.css';
 
 function dashboard() {
-  return (<div className="android-large-1">
+  return (<div className="dashboard">
     <div className="home">
       <div className="dashbord-navbar">
         <div className="navbarContainer">
