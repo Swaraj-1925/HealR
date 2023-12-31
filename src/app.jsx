@@ -5,6 +5,7 @@ import SignIn from './compon­ent­/signIn.js';
 import SignUp from './compon­ent­/signUp.js';
 import Dashboard from './compon­ent­/dashboard.js';
 import BookAppoinment from './compon­ent­/bookAppoinment';
+import DocDescription from "./compon­ent­/doc_Description.js";
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/login" element={<SignIn/>}></Route>
       <Route path="/dashboard" element={<Dashboard/>}></Route>
       <Route path="/bookappointment" element={<BookAppoinment/>}></Route>
+      <Route path="/doc_Description" element={<DocDescription/>}></Route>
       
     </Routes>
   );

@@ -6,13 +6,6 @@ import search from './../images/search.png';
 import star from './../images/star.png';
 import './../style/bookAppoinment.css';
 
-
-const styles = {
-    Link: {
-        TextDecoration: "none"
-    }
-}
-
 function bookAppoinment() {
   return (<div className="bookAppoinment">
     
@@ -51,7 +44,7 @@ function bookAppoinment() {
 
           <div className="search-doctor">Search doctor</div>
         </div>
-     <Link to="/doc_desp" style={styles.Link}><div className="card-9">
+     <Link to="/doc_Description"><div className="card-9">
           <img className="image-icon" alt="" src={model} />
 
           <div className="frame-parent">
