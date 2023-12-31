@@ -1,0 +1,282 @@
+.bookAppoinment{
+    width: 100%;
+    height: 800px;
+
+}
+.list-doctor-child {
+    position: absolute;
+    top: 727px;
+    left: 139px;
+    width: 12px;
+    height: 7px;
+    object-fit: cover;
+  }
+  .label-search-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 18px;
+    background-color: #e5e1da94;
+    width: 327px;
+    height: 56px;
+  }
+  .search-icon {
+    position: absolute;
+    top: 16px;
+    left: 279px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .search-doctor {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+  .label-search {
+    position: absolute;
+    top: 98px;
+    left: 50px;
+    width: 327px;
+    height: 56px;
+    font-size: var(--font-size-sm);
+    color: var(--text-default);
+    font-family: var(--font-manrope);
+  }
+  .image-icon {
+    position: relative;
+    margin: 10px;
+    border-radius: var(--br-xs);
+    width: 109px;
+    height: 109px;
+    object-fit: cover;
+  }
+  .numberstar {
+    position: relative;
+    margin-left: 4px;
+    line-height: 150%;
+  }
+  .vector-icon {
+    position: relative;
+    width: 15px;
+    height: 13.35px;
+    object-fit: cover;
+  }
+  .sarah-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .name{
+    color: #1F2A37;
+  }
+  .frame-child {
+    align-self: stretch;
+    position: relative;
+    border-top: 1px solid var(--gray-200);
+    box-sizing: border-box;
+    height: 1px;
+  }
+  .vuesaxlinearlocation-icon {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    object-fit: cover;
+  }
+  .vuesaxlinearlocation-wrapper {
+    flex-shrink: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .golden-cardiology-center {
+    flex: 1;
+    position: relative;
+    line-height: 22px;
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-sm);
+  }
+  .years-experience {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+    color: #007dff;
+  }
+  .subtract-icon,
+  .subtract-icon1 {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    object-fit: cover;
+  }
+  .subtract-icon1 {
+    width: 8.02px;
+    height: 15.83px;
+  }
+  .frame-parent1,
+  .subtract-parent {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent1 {
+    align-items: center;
+    gap: var(--gap-9xs);
+    z-index: 0;
+  }
+  .frame-item {
+    position: relative;
+    background-color: var(--color-darkgray);
+    border-right: 1px solid var(--gray-200);
+    box-sizing: border-box;
+    width: 1px;
+    height: 14px;
+    z-index: 1;
+  }
+  .div2,
+  .reviews {
+    position: relative;
+    left: 5px;
+    line-height: 150%;
+    z-index: 2;
+  }
+  .div2 {
+    position: absolute;
+    margin: 0 !important;
+    top: 1px;
+    left: 141.93px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    display: inline-block;
+    width: 62px;
+    height: 11px;
+    flex-shrink: 0;
+    z-index: 3;
+  }
+  .frame-div {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    gap: var(--gap-5xs);
+    color: var(--color-darkgray);
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-xs);
+    color: #202021;
+  }
+  .card-9,
+  .frame-group,
+  .frame-parent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-xs);
+    gap: var(--gap-5xs);
+  }
+  .card-9 {
+    position: absolute;
+    top: 190px;
+    left: 16px;
+    border-radius: var(--br-xs);
+    background-color: var(--color-white);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 0.5px solid var(--gray-100);
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-xs);
+    font-size: 16px;
+    color: var(--gray-800);
+    font-family: var(--font-euclid-circular-b);
+  }
+  .list-doctor {
+    position: absolute;
+    top: -12px;
+    left: -15px;
+    border-radius: 40px;
+    background-color: var(--color-gray-100);
+    width: 375px;
+    height: 500px;
+    overflow: hidden;
+  }
+  .android-large-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-100);
+    font-family: var(--font-epilogue);
+  }
+  
+.bookAppoinment  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+.bookAppoinment  :root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-euclid-circular-b: "Euclid Circular B";
+    --font-manrope: Manrope;
+    --font-epilogue: Epilogue;
+  
+    /* font sizes */
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #fbfbfb;
+    --gray-100: #f3f4f6;
+    --color-darkgray: #979595;
+    --gray-200: #e5e7eb;
+    --gray-800: #1f2a37;
+    --text-default: #cacccf;
+  
+    /* Gaps */
+    --gap-5xs: 8px;
+    --gap-9xs: 4px;
+  
+    /* Paddings */
+    --padding-xs: 12px;
+  
+    /* Border radiuses */
+    --br-xs: 12px;
+    
+  }
+  .titlePage{
+    position: relative;
+    left: 20%;
+    top: 30px;
+  }

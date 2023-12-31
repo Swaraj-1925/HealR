@@ -47,7 +47,7 @@
   left: 10px;
   font-weight: 500;
 }
-.ellipse-parent {
+.bookAppoinment.ellipse-parent {
   height: 65.63%;
   width: 64.42%;
   top: 0;
@@ -257,8 +257,8 @@
 }
 
 .navbarContainer {
-  background-color: #FBF9F1;
-  width: 420px;
+  background-color: #fefefe93;
+  width: 100%;
   left: 0px;
   position: fixed;
   bottom: 0%;
@@ -268,7 +268,7 @@
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  box-shadow: 16px px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 16px 0px 8px rgba(0, 0, 0, 0.1);
 }
 .icon-container {
    margin: 10px; 
@@ -309,4 +309,9 @@
 
 .icon-container.active .semi-circle {
   visibility: visible;
+}
+.titlePage{
+  position: relative;
+  left: 35%;
+  top: 30px;
 }

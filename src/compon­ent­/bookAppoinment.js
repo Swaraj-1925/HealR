@@ -1,18 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Quote from './../images/faquoteleft2x.png';
-import bell from './../images/group2x.png';
-import calender from './../images/icoutlinedaterange2x.png';
-import mask from './../images/mask-group2x.png';
-import meetup from './../images/meetup-icon2x.png';
 import ellipse from './../images/ellipse-3@2x.png';
-import './../style/dashboard.css';
-import './../style/dashboard2.css';
+import model from './../images/image.png';
+import search from './../images/search.png';
+import star from './../images/star.png';
+import './../style/bookAppoinment.css';
 
-function dashboard() {
-  return (<div className="dashboard">
-    <div className="home">
-      <div className="dashbord-navbar">
+
+const styles = {
+    Link: {
+        TextDecoration: "none"
+    }
+}
+
+function bookAppoinment() {
+  return (<div className="bookAppoinment">
+    
+    <div className="dashbord-navbar">
         <div className="navbarContainer">
         <Link to="/dashboard"> <div className="icon-container">
             <svg className="icon-nav" width="30px" height="30px" viewBox="0 0 24 24" id="home-alt-3" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg"><path d="M21.71,11.29l-9-9a1,1,0,0,0-1.42,0l-9,9a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,13H4v7.3A1.77,1.77,0,0,0,5.83,22H8.5a1,1,0,0,0,1-1V16.1a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1V21a1,1,0,0,0,1,1h2.67A1.77,1.77,0,0,0,20,20.3V13h1a1,1,0,0,0,.92-.62A1,1,0,0,0,21.71,11.29Z" ></path></svg>
@@ -40,71 +44,55 @@ function dashboard() {
           </div> </Link>
         </div>
       </div>
-    <div className='titlePage'> <h2>Home</h2></div>
-    <div className="welcome-back-sarina-container">
-      <span className="good-afternoon">Good Afternoon</span>
-      <span className="span">, </span>
-      <b>Sarina!</b>
-    </div>
-    <div className="header">
-      <img className="group-icon" alt="" src={bell} />
+      <div className='titlePage'> <h2>Book Appoinment</h2></div>
+    <div className="label-search">
+          <div className="label-search-child"></div>
+          <img className="search-icon" alt="" src={search} />
 
-      <div className="ellipse-parent">
-        <div className="group-child"></div>
-        <div className="div">3</div>
-      </div>
-    </div>
-    <div className="shadow"></div>
-    <div className="rectangle-parent">
-      <div className="rectangle"></div>
-      <img
-        className="mask-group-icon"
-        alt=""
-        src={mask}
-      />
-
-      <Link to="/bookappointment">  <div className="peer-group-meetup">
-        <div className="on-1-sessions">1 on 1 Sessions</div>
-        <div className="lets-open-up">
-          Let’s open up to the things that matter the most
+          <div className="search-doctor">Search doctor</div>
         </div>
-        <div className="watch-now">
-          <div className="watch-now-child"></div>
-          <b className="book-now">Book Now</b>
-          <img
-            className="icoutline-date-range-icon"
-            alt=""
-            src={calender}
-          />
-        </div>
-      </div></Link>
-      <img className="meetup-icon" alt="" src={meetup} />
-    </div>
-    <div className="home-inner">
-      <div className="rectangle-group">
-        <div className="rectangle1"></div>
-        <img
-          className="mask-group-icon1"
-          alt=""
-          src={mask}
-        />
+     <Link to="/doc_desp" style={styles.Link}><div className="card-9">
+          <img className="image-icon" alt="" src={model} />
 
-        <img
-          className="faquote-left-icon"
-          alt=""
-          src={Quote}
-        />
+          <div className="frame-parent">
+            <div className="sarah-parent">
+              <b className="name">Sarah</b>
+              
+            </div>
+            <div className="frame-child"></div>
+            <div className="frame-group">
+              <div className="frame-container">
+                <div className="vuesaxlinearlocation-wrapper">
+                  <img className="vuesaxlinearlocation-icon" alt="" />
+                </div>
+                <div className="golden-cardiology-center">
+                  Psy.D. (Doctor of Psychology)
+                </div>
+              </div>
+              <div className="years-experience">10 years experience</div>
+              <div className="frame-div">
+                <div className="frame-parent1">
+                  <div className="subtract-parent">
+                    <img
+                      className="subtract-icon"
+                      alt=""
+                      src={star}
+                    />
+                  </div>
+                  <div className="sarah numberstar">5</div>
+                </div>
+                <div className="frame-item"></div>
+                <div className="reviews">(1,872 Reviews)</div>
+                <div className="div2">₹ 1000</div>
+              </div>
+            </div>
+          </div>
+      </div> </Link>
 
-        <div className="it-is-better">
-          “It is better to conquer yourself than to win a thousand battles”
-        </div>
-      </div>
-    </div>
 
-  </div>
-  </div>
- 
+
+  </div> 
    );
 }
 
-export default dashboard;
+export default bookAppoinment;
