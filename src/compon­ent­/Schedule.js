@@ -1,18 +1,50 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import './../style/Schedule.css';
 import ellipse from './../images/ellipse-3@2x.png';
-import model from './../images/image.png';
-import search from './../images/search.png';
-import star from './../images/star.png';
-import './../style/bookAppoinment.css';
+import DateCalendarServerRequest from './calender';
+import {useState} from 'react';
 
-function bookAppoinment() {
-  return (<div className="bookAppoinment">
-    <div className='bookapp'>
+
+
+
+
+function Schedule() {
+    
+    const timeSlots = [
+        '9 AM',
+        '10 AM',
+        '11 AM',
+        '12 PM',
+        '1 PM',
+        '2 PM',
+        '3 PM',
+        '4 PM',
+        '5 PM',
+        '6 PM',
+        '7 PM',
+        '8 PM',
+        '9 PM',
+      ];
+      const availability = {
+        '9 AM': true,
+        '10 AM': false,
+        '11 AM': true,
+      
+      };
+      const [selectedSlot, setSelectedSlot] = useState(null); // Initialize selectedSlot
+
+      const handleSlotClick = (slot) => {
+        setSelectedSlot(slot);
+        // Perform any other actions upon slot selection
+      };
+      
+    return ( <div className="schedule">
+            <div className='Sched'>
     <div className="dashbord-navbar">
         <div className="navbarContainer">
         <Link to="/dashboard"> <div className="icon-container">
             <svg className="icon-nav" width="30px" height="30px" viewBox="0 0 24 24" id="home-alt-3" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg"><path d="M21.71,11.29l-9-9a1,1,0,0,0-1.42,0l-9,9a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,13H4v7.3A1.77,1.77,0,0,0,5.83,22H8.5a1,1,0,0,0,1-1V16.1a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1V21a1,1,0,0,0,1,1h2.67A1.77,1.77,0,0,0,20,20.3V13h1a1,1,0,0,0,.92-.62A1,1,0,0,0,21.71,11.29Z" ></path></svg>
+
             <img className="semi-circle" alt="" src={ellipse} />
           </div> </Link>
           <Link to="/bookappointment" >  <div className="icon-container">
@@ -37,55 +69,34 @@ function bookAppoinment() {
           </div> </Link>
         </div>
       </div>
+
       <div className='titlePage'> <h2>Book Appoinment</h2></div>
-    <div className="label-search">
-          <div className="label-search-child"></div>
-          <img className="search-icon" alt="" src={search} />
-
-          <div className="search-doctor">Search doctor</div>
+      <div className='calender'> <DateCalendarServerRequest/></div>
+      <div className="time-slots">
+      <div className='button-container'>
+        {timeSlots.map((slot, index) => (
+          <button
+            key={index}
+            onClick={() => handleSlotClick(slot)}
+            disabled={!availability[slot]}
+            style={{
+              backgroundColor: selectedSlot === slot ? '#DE671D' : '#DE671D',
+            //   color: availability[slot] ? 'black' : 'white',
+            }}
+          >
+            {slot}
+          </button>
+        ))}
         </div>
-     <Link to="/doc_Description"><div className="card-9">
-          <img className="image-icon" alt="" src={model} />
+      </div>
 
-          <div className="frame-parent">
-            <div className="sarah-parent">
-              <b className="name">Sarah</b>
-              
-            </div>
-            <div className="frame-child"></div>
-            <div className="frame-group">
-              <div className="frame-container">
-                <div className="vuesaxlinearlocation-wrapper">
-                  <img className="vuesaxlinearlocation-icon" alt="" />
-                </div>
-                <div className="golden-cardiology-center">
-                  Psy.D. (Doctor of Psychology)
-                </div>
-              </div>
-              <div className="years-experience">10 years experience</div>
-              <div className="frame-div">
-                <div className="frame-parent1">
-                  <div className="subtract-parent">
-                    <img
-                      className="subtract-icon"
-                      alt=""
-                      src={star}
-                    />
-                  </div>
-                  <div className="sarah numberstar">5</div>
-                </div>
-                <div className="frame-item"></div>
-                <div className="reviews">(1,872 Reviews)</div>
-                <div className="div2">₹ 1000</div>
-              </div>
-            </div>
-          </div>
-      </div> </Link>
+      <Link to="/methodOpp"><button className='buttoNext'> Next </button></Link>
+    
 
 
-    </div>
+      </div>
   </div> 
-   );
+     );
 }
 
-export default bookAppoinment;
+export default Schedule;

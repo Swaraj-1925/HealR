@@ -413,22 +413,23 @@ footer img{
           position: absolute;
           color: #575736;
           right: 35%;
-          top: 85px;
+          top: 60px;
           font-weight: 900;
           font-size: 90px;
           backdrop-filter: blur(1px);
       }
       #tagline {
         position: absolute;
-        color: #8a6d32;
+        color: #5a441a;
         top: 180px;
         right: 10%;
-        font-weight: 200;
+        font-weight: 300;
         font-size: 15px;
+
       }
       .buttonhome{
         position: absolute;
-        top:230px;
+        top:330px;
         right: 0%;
         width: 370px;
         margin: 2px;

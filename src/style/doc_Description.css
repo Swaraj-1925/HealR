@@ -23,7 +23,7 @@
     width: 327px;
     position: absolute;
     left: 22px;
-    top: 5%;
+    top: 2%;
     font-size: 20px;
   }
   .menu {
@@ -61,7 +61,7 @@
     position: absolute;
     left: 0%;
     margin: 5px 10px 5px;
-    top: 10%;
+    top: 8%;
     overflow: hidden;
   }
   .image-4 {
@@ -84,7 +84,7 @@
     width: 85%;
     position: absolute;
     margin: 5px 10px 5px;
-    top: 346px;
+    top: 47%;
     box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.04);
   }
   .frame-48095513 {
@@ -153,7 +153,7 @@
     width: 338px;
     position: absolute;
     left: 26px;
-    top: 426px;
+    top: 58%;
   }
   .patients {
     display: flex;
@@ -336,7 +336,7 @@
     justify-content: center;
     position: absolute;
     left: 30px;
-    top: 530px;
+    top: 72%;
   }
   .about-me {
     color: var(--secondary, #101010);
@@ -393,11 +393,25 @@
     line-height: var(--body-medium-semi-bold-line-height, 20px);
     font-weight: var(--body-medium-semi-bold-font-weight, 600);
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     margin: 5px 50px 0px;
     padding: 20px 100px 20px;
     flex: 1;
+    z-index: 0;
   }
  Link{
     text-decoration: none;
+ }
+ .doc_container{
+  background-color: #597E52;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  /* border-radius: 40px; */
+  background-color: #FFFFEC;
+  
+  height: 812px;
+  overflow: hidden;
+
  }

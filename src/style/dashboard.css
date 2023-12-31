@@ -257,7 +257,7 @@
 }
 
 .navbarContainer {
-  background-color: #fefefe93;
+  background-color:  #fffefe;
   width: 100%;
   left: 0px;
   position: fixed;
@@ -269,6 +269,7 @@
   align-items: center;
   align-content: center;
   box-shadow: 16px 0px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 }
 .icon-container {
    margin: 10px; 

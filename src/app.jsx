@@ -6,8 +6,7 @@ import SignUp from './compon­ent­/signUp.js';
 import Dashboard from './compon­ent­/dashboard.js';
 import BookAppoinment from './compon­ent­/bookAppoinment';
 import DocDescription from "./compon­ent­/doc_Description.js";
-
-
+import Datepicker from './compon­ent­/Schedule.js';
 
 
 function App() {
@@ -21,6 +20,7 @@ function App() {
       <Route path="/dashboard" element={<Dashboard/>}></Route>
       <Route path="/bookappointment" element={<BookAppoinment/>}></Route>
       <Route path="/doc_Description" element={<DocDescription/>}></Route>
+      <Route path="/Schedule" element={<Datepicker/>}></Route>
       
     </Routes>
   );
