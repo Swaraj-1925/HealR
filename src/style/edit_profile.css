@@ -1,0 +1,42 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.edit-container h3{
+    font-size: 30px;
+    position: relative;
+    left: 30%;
+}
+.group{
+  position:relative;
+}
+.group>label{
+font-family: 'Roboto', sans-serif;
+  padding:0 0.1em;
+  position:absolute;
+  top: 25px;
+  left:25px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #707070;
+  background-color: transparent;
+}
+
+.group>input{
+    font-family: 'Roboto', sans-serif;
+padding:20px 70px 10px;
+    margin: 20px;
+  border-radius: 0.5em;
+  border: 2px solid #7070707d;
+  outline:none;
+}
+.from-continer button{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 30px;
+    width: fit-content;
+    border-radius: 11px;
+    border: 1px solid blue;
+    padding: 15px 30px 15px;
+    color: aliceblue;
+    background-color: #DE671D;
+}
+

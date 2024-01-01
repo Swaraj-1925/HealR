@@ -11,15 +11,7 @@
     height: 7px;
     object-fit: cover;
   }
-  .label-search-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 18px;
-    background-color: #e5e1da94;
-    width: 327px;
-    height: 56px;
-  }
+ 
   .search-icon {
     position: absolute;
     top: 16px;
@@ -30,11 +22,18 @@
     object-fit: cover;
   }
   .search-doctor {
+    padding-left: 20px;
     position: absolute;
-    top: 17px;
-    left: 16px;
     line-height: 21px;
     font-weight: 500;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border-radius: 18px;
+    border: none;
+    background-color: #e5e1da49;
+    width: 327px;
+    height: 56px;
   }
   .label-search {
     position: absolute;

@@ -8,6 +8,8 @@ import BookAppoinment from './compon­ent­/bookAppoinment';
 import DocDescription from "./compon­ent­/doc_Description.js";
 import Datepicker from './compon­ent­/Schedule.js';
 import Typetherapy from './compon­ent­/typetherapy.js';
+import Profile from "./compon­ent­/profile.js";
+import Editprofile from "./compon­ent­/edit_profile.js";
 
 
 
@@ -24,7 +26,8 @@ function App() {
       <Route path="/doc_Description" element={<DocDescription/>}></Route>
       <Route path="/Schedule" element={<Datepicker/>}></Route>
       <Route path="/methodOpp" element={<Typetherapy/>}></Route>
-      
+      <Route path="/profile" element={<Profile/>}></Route>
+      <Route path="/editprofile" element={<Editprofile/>}></Route>
     </Routes>
   );
 }

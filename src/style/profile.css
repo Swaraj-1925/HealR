@@ -1,0 +1,75 @@
+.box1 div{
+    background-color: aquamarine;
+    width: 300px;
+    height: 60px;
+    margin: 20px 10px 10px;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.settings h3{
+    margin: 10px;
+    font-size: 36px;
+}
+.box1 svg{
+    position: relative;
+    margin-top: 15px;
+    left:15px
+}
+
+.box1 h4{
+   
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+    color: black;
+    font-family: var(--title-poppins-large-font-family, "Poppins-SemiBold", sans-serif );
+    font-size: var(--title-poppins-large-font-size, 17px);
+    line-height: var(--title-poppins-large-line-height, 28px);
+    font-weight: var(--title-poppins-large-font-weight, 600);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile-container{
+    background-color: #597E52;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    /* border-radius: 40px; */
+    background-color: #FFFFEC;
+    
+    height: 812px;
+    overflow: hidden;
+}
