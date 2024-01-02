@@ -357,7 +357,12 @@ header > p {
 /* services end */
 
 /* footer start*/
+#foor{
+  width: fit-content;
+}
 footer{
+  display: inline;
+  
   margin: 10px;
   padding: 20px;
 }
@@ -421,17 +426,17 @@ footer img{
       #tagline {
         position: absolute;
         color: #5a441a;
-        top: 180px;
-        right: 10%;
+        top: 170px;
+        right: 0%;
         font-weight: 300;
         font-size: 15px;
 
       }
       .buttonhome{
-        position: absolute;
+        position: relative;
         top:330px;
-        right: 0%;
-        width: 370px;
+        right: -2%;
+        width: fit-content;
         margin: 2px;
         padding: 3px;
         cursor: pointer;
@@ -455,8 +460,8 @@ footer img{
     height: 60%;
   }
   footer{
-    margin: 30px;
-    padding: 20px;
+    margin: 5px;
+    padding: 5px;
     display: inline-block;
   }
   footer p{
@@ -467,6 +472,11 @@ footer img{
     margin: 5px;
     bottom: -8px;
     width: 15px;
+  }
+  .main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -482,4 +492,3 @@ footer img{
   
 }
 
-/* responsive end */

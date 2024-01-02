@@ -156,7 +156,6 @@ function home() {
     <footer id='foot'>
         <p id='true'>
         Please feel free to reach out to us at
-        <p id='true'></p>
         <a href={`mailto:${emailAddress}`}><img src={gmailimg} id='true' alt=""/>{emailAddress}</a>.
       </p>
     </footer>
