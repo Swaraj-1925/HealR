@@ -46,6 +46,7 @@ function SignIp() {
                       placeholder="Your Email"
                       value={formData.email}
                       onChange={handleInputChange}
+                      required
                     />
                   </div>
                   <div className="form-group">
@@ -59,6 +60,7 @@ function SignIp() {
                       placeholder="Password"
                       value={formData.password}
                       onChange={handleInputChange}
+                      required
                     />
                   </div>
                   <div className="form-group form-button">
