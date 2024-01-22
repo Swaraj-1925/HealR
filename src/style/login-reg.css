@@ -423,16 +423,17 @@ label.valid:after {
 .main{
   left: 30px;
   height: auto;
-  top: 40px;
+  
   
 }
 .container-reg{
   position: fixed;
   min-height: 85vh;
   width: 400px;
+  margin-left: 15px;
 }
 .container{
-
+  min-height: 50vh;
   width: 380px;
 }
 .signup-image{
@@ -441,7 +442,7 @@ label.valid:after {
 }
 .signup-form {
   margin-left: 75px;
-  margin-right: 35px;
+  
   padding-left: 0px;
   width: 100%;
   left: 30%;
@@ -462,6 +463,12 @@ label.valid:after {
 .container-reg input[type=checkbox]:not(old) {
   
   top: 0px;
+}
+.signup-content{
+  padding: 10px 0px;
+} 
+.signup {
+  width: 100%;
 }
 
 }

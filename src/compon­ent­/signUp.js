@@ -31,6 +31,7 @@ function SignUp() {
   return (
     <div className="reg">
       <div className="main">
+      <main>
         <section className="signup">
           <div className="container-reg">
             <div className="signup-content">
@@ -128,6 +129,7 @@ function SignUp() {
             </div>
           </div>
         </section>
+        </main>
       </div>
     </div>
   );
