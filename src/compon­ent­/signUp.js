@@ -49,6 +49,7 @@ function SignUp() {
                       placeholder="Your Name"
                       value={formData.name}
                       onChange={handleInputChange}
+                      required
                     />
                   </div>
                   <div className="form-group">
@@ -62,6 +63,7 @@ function SignUp() {
                       placeholder="Your Email"
                       value={formData.email}
                       onChange={handleInputChange}
+                      required
                     />
                   </div>
                   <div className="form-group">
@@ -75,6 +77,7 @@ function SignUp() {
                       placeholder="Password"
                       value={formData.password}
                       onChange={handleInputChange}
+                      required
                     />
                   </div>
                   <div className="form-group">
@@ -88,6 +91,7 @@ function SignUp() {
                       placeholder="Confirm your password"
                       value={formData.confirmPassword}
                       onChange={handleInputChange}
+                      required
                     />
                   </div>
                   <div className="form-group">
@@ -98,6 +102,7 @@ function SignUp() {
                       className="agree-term"
                       checked={formData.agreeTerm}
                       onChange={handleInputChange}
+                      required
                     />
                     <label htmlFor="agree-term" className="label-agree-term">
                       <span></span>I agree all statements in{' '}
